@@ -8,17 +8,13 @@
 
 /* Bourbon & Neat
  * -----------------------------------------------------------------------------*/
-@import "bourbon/dist/bourbon";
+@import "bourbon";
 @import "base/grid-settings";
-@import "neat/app/assets/stylesheets/neat";
-
-
+@import "neat";
 
 /* Variables
  * -----------------------------------------------------------------------------*/
 @import "base/variables";
-
-
 
 /* Mixins
  * -----------------------------------------------------------------------------*/
@@ -30,15 +26,11 @@
 @import "base/mixins/selection";
 @import "base/mixins/text-overflow";
 
-
-
 /* Extends
  * -----------------------------------------------------------------------------*/
 @import "base/extends/button";
 @import "base/extends/clearfix";
 @import "base/extends/hide-text";
-
-
 
 /* Base
  * -----------------------------------------------------------------------------*/
@@ -53,13 +45,9 @@
 @import "base/library";
 @import "base/application";
 
-
-
 /* Components
  * -----------------------------------------------------------------------------*/
 // @import "component/modal";
-
-
 
 /* Pages
  * -----------------------------------------------------------------------------*/
